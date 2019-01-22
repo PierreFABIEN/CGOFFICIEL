@@ -1,0 +1,237 @@
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.container,
+.container-fluid,
+.row {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	box-sizing: content-box !important;
+}
+body{
+	background-color: #eeeeee !important;
+}
+
+#up {
+	min-height: 100vh;
+	background-image: url("../img/background.png");
+	background-position: center;
+	background-size: cover;
+
+	.search-form--home {
+		height: 60vh;
+		margin-left: 3vh !important;
+		select {
+			option {
+				color: black;
+			}
+		}
+	}
+
+	.sidebar-home{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f0f0+0,f0f0f0+100&1+49,0+100 */
+		background: -moz-linear-gradient(left, rgba(240,240,240,1) 0%, rgba(240,240,240,1) 49%, rgba(240,240,240,0) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, rgba(240,240,240,1) 0%,rgba(240,240,240,1) 49%,rgba(240,240,240,0) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(240,240,240,1) 0%,rgba(240,240,240,1) 49%,rgba(240,240,240,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#00f0f0f0',GradientType=1 ); /* IE6-9 */
+				min-height: 96vh;
+				.sidebar-home--margin{
+					margin-left: 5vw !important;
+				}
+		.head-bouton{
+			img{
+				width: 100%;
+			}
+		}
+		.head-text{
+		}
+		button{
+			font-family: Raleway;
+			font-weight: 500;
+			border:2px solid #002a6b;
+			color: #002a6b;
+			text-transform: uppercase;
+			font-size: medium;
+			  font-weight: bold;
+			&:hover{
+				color: white;
+				background-color: #002a6b;
+			}
+		}
+		.service-telephonique--flex---text----flex{
+			font-family: Raleway;
+			font-weight: 500;
+			text-align: left;
+			text-transform: uppercase;
+			p{
+				font-size: 12px;
+				color: #002a6b;
+				margin-bottom: 0px !important;
+				font-family: Raleway;
+		    font-weight: 700;
+		    text-align: center;
+		    text-transform: uppercase;
+			}
+		}
+		.habiliation--flex---text----flex{
+			font-family: Raleway;
+			font-weight: 700;
+			text-align: left;
+			text-transform: uppercase;
+			p{
+				font-size: 12px;
+				color: #002a6b;
+				margin-bottom: 0px !important;
+			}
+			span{
+				font-size: 25px;
+				color: #002a6b;
+			}
+		}
+	}
+}
+$bleu: #002a6b;
+$bleu-hover: rgb(63, 87, 149);
+$rouge: rgb(175, 68, 68);
+@font-face {
+	font-family: textr;
+	src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+@font-face {
+	font-family: menu;
+	src: url("../fonts/calibril.ttf");
+}
+@font-face {
+	font-family: menub;
+	src: url("../fonts/calibrib.ttf");
+}
+/*________________________________________________________________ScrollMagic:*/
+@import 'scrollmagic.scss';
+@import 'arrowup.scss';
+@import 'arrowdown.scss';
+@import 'couleur.scss';
+/*________________________________________________________________ScrollMagic:*/
+@import 'menu.scss'; /*________________________________________________________________ScrollMagic:*/
+@import 'home.scss';
+@import 'contact.scss';
+@import 'commander.scss';
+@import 'tarif-departement.scss';
+@import 'vos-demarches.scss';
+@import 'result.scss';
+@import 'faq.scss';
+@import 'service-telephonique.scss';
+@import 'band-actualite.scss';
+@import 'footer.scss';
+@import 'retractation.scss';
+/*________________________________________________________________ScrollMagic:*/
+@media screen and (min-width:0px) and (max-width: 991px) {
+	#up .sidebar-home{
+		min-height: unset !important;
+	}
+	#up .sidebar-home .sidebar-home--margin{
+		margin-left: 0vw !important;
+	}
+	#up {
+		min-height: 100vh;
+		background-image:url(none);
+		background-position: center;
+		background-size: cover;
+	}
+	#up .sidebar-home{
+		height: unset !important;
+	}
+	#up form{
+				height: unset !important;
+				position: relative !important;
+				margin-top: 0vh;
+margin-left: 0vh !important;
+	}
+	.search{
+		height: unset !important;
+	}
+
+}
+@media screen and (min-width: 992px) and (max-width: 99991px) {
+	.formulaire-home{
+		    background-image: url(none);
+	}
+}
+.modal-dialog .search{
+	height:unset !important;
+}
+// .home-back{
+// 	background-image: url(../img/back.png);
+// 	background-position: center;
+// 	background-size: cover;
+// }
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	#up {
+	.search-form--home {
+		margin-left: 0vh !important;
+	}
+}
+}
