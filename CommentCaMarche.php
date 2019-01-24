@@ -12,7 +12,7 @@
    <body>
 <!--____________________________________________________________________________BODY-->
      <?php
-     include __DIR__.'/body/page/tarif-departements.php';
+     include __DIR__.'/body/page/commentcamarche.php';
      ?>
 
      <?php

@@ -12,7 +12,7 @@
    <body>
 <!--____________________________________________________________________________BODY-->
      <?php
-     include __DIR__.'/body/page/qui-sommes-nous.php';
+     include __DIR__.'/body/page/accueil.php';
      ?>
 
      <?php

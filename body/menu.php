@@ -1,20 +1,20 @@
 <nav class="row col-12 menu">
-  <a href="Home.php" class="col-4 col-sm-4 menu-item">
+  <a href="Accueil.php" class="col-4 col-sm-4 menu-item">
     <li>
       <div class="col-12 menu-line accueil"></div>
-      <h6>Accueil <span class="menu-line-span">Bienvenue chez CG Officiel</span></h6>
+      <h6>Accueil <span class="menu-line-span">Commander votre carte grise</span></h6>
     </li>
   </a>
-  <a href="Commander.php" class="col-4 col-sm-4 menu-item">
+  <a href="CommentCaMarche.php" class="col-4 col-sm-4 menu-item">
     <li>
       <div class="col-12 menu-line commander"></div>
-      <h6>Commander <span class="menu-line-span">votre certficat d'immatriculation</span></h6>
+      <h6>Comment ça marche ? <span class="menu-line-span">Tout ce qu'il faut savoir</span></h6>
     </li>
   </a>
-  <a href="Vos-demarches.php" class="col-4 col-sm-4 menu-item">
+  <a href="#" class="col-4 col-sm-4 menu-item">
     <li>
       <div class="col-12 menu-line demarche"></div>
-      <h6>Vos démarches <span class="menu-line-span">et quelques conseils</span></h6>
+      <h6>actualité <span class="menu-line-span">Notre blog</span></h6>
     </li>
   </a>
   <!-- <a href="Faq.php" class="col-4 col-sm-2 menu-item">

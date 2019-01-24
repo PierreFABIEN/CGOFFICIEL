@@ -1,5 +1,5 @@
-<div class="row demarche-menu commander-secondview d-flex flex-row-reverse my-flex-container mt-5">
-	<h1 class="col-12 commander-secondview--titre">Vos démarches et conseils</h1>
+<div class="row demarche-menu commander-secondview d-flex flex-row-reverse my-flex-container">
+	<h1 class="col-10 commander-secondview--titre">Vos démarches et conseils</h1>
 	<div class="col-12 col-sm-6 col-lg-6 col-xl-5 menu-box">
 		<button type="button" data-toggle="modal" data-target="#changement-de-titulaire" href="#Changement-de-titulaire" class="row col-10 mx-auto menu-commander  d-flex align-items-center justify-content-center my-flex-container">
 			<span class="col-4 menu-box--icon d-flex flex-row justify-content-center my-flex-container mt-3 mb-3"><i class="fas fa-5x fa-user"></i>

@@ -92,6 +92,7 @@ body{
 		}
 	}
 
+
 	.sidebar-home{
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f0f0+0,f0f0f0+100&1+49,0+100 */
 		background: -moz-linear-gradient(left, rgba(240,240,240,1) 0%, rgba(240,240,240,1) 49%, rgba(240,240,240,0) 100%); /* FF3.6-15 */
@@ -181,12 +182,10 @@ $rouge: rgb(175, 68, 68);
 @import 'commander.scss';
 @import 'tarif-departement.scss';
 @import 'vos-demarches.scss';
-@import 'result.scss';
 @import 'faq.scss';
-@import 'service-telephonique.scss';
-@import 'band-actualite.scss';
 @import 'footer.scss';
 @import 'retractation.scss';
+@import 'login.scss';
 /*________________________________________________________________ScrollMagic:*/
 @media screen and (min-width:0px) and (max-width: 991px) {
 	#up .sidebar-home{

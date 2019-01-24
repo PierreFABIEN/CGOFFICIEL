@@ -1,6 +1,6 @@
 <div class="col-4 sidebar-home hidden-md-down ">
 	<div class="col-12 row d-flex align-items-center head-logo mt-5">
-		<a class="col-4 sidebar-home--margin" href="Home.php">
+		<a class="col-5 sidebar-home--margin" href="Home.php">
 			<img class="logo-home rounded mx-auto d-block img-fluid" src="asset/img/logo.png" alt="">
 		</a>
 	</div>
@@ -12,12 +12,12 @@
 			</p>
 			<div class="col-12 col-xl-6 row habiliation--flex---text----flex mb-3 d-flex flex-row align-items-center my-flex-container">
 				<p class="col-11 mx-auto">Habilitation Ministère de l’Intérieur :<br>
-<span class="col-11 mx-auto">N°222442</span>
+					<span class="col-11 mx-auto">N°222442</span>
 				</p>
 
 
 				<p class="col-11 mx-auto">Agrément Trésor Public :<br>
-<span class="col-11 mx-auto"> N°55337</span>
+					<span class="col-11 mx-auto"> N°55337</span>
 				</p>
 
 			</div>
@@ -29,13 +29,15 @@
 		</div>
 		<div class="col-12 row mt-2">
 			<div class="col-12">
-				<button type="button" class="btn btn-outline-primary btn-lg col-6 text-center mt-3 mb-3 sidebar-home--margin">mon Compte
-				</button>
+				<a href="Login.php">
+					<button type="button" href="Login.php" class="btn btn-outline-primary btn-lg col-6 text-center mt-3 mb-3 sidebar-home--margin">mon Compte
+					</button>
+				</a>
 			</div>
-			<div class="col-12">
+			<!-- <div class="col-12">
 				<button type="button" class="btn btn-outline-primary btn-lg col-6 text-center mt-3 mb-3 sidebar-home--margin">Actualité
 				</button>
-			</div>
+			</div> -->
 
 		</div>
 

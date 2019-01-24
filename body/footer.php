@@ -52,19 +52,19 @@
 
 	<div class="col-6 col-lg-3 footer-link">
 		<h4 class="text-center" style="color:white;font-family:Raleway">Pages</h4>
-	<a href="Faq.php" class="col-4 col-lg-3 footer-menu-item">
+	<a href="Accueil.php" class="col-4 col-lg-3 footer-menu-item">
 		<li>
 			<h6>Accueil</h6>
 		</li>
 	</a>
-	<a href="Blog.php" class="col-4 col-lg-3 footer-menu-item">
+	<a href="CommentCaMarche.php" class="col-4 col-lg-3 footer-menu-item">
 		<li>
-			<h6>Commander</h6>
+			<h6>Comment ça marche ?</h6>
 		</li>
 	</a>
-	<a href="Contact.php" class="col-4 col-lg-3 footer-menu-item">
+	<a href="#" class="col-4 col-lg-3 footer-menu-item">
 		<li>
-			<h6>Vos démarches</h6>
+			<h6>Actualité</h6>
 		</li>
 	</a>
 	</div>

@@ -10,8 +10,8 @@ include __DIR__.'/../menu.php';
 		?>
 		<div class="col-md-12 col-lg-8 formulaire-home">
 			<?php
-include __DIR__.'/../menu-commander.php';
-?>
+	include __DIR__.'/../menu-demarche.php';
+	?>
 		</div>
 	</div>
 
@@ -32,7 +32,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Votre immatriculation
 										</div>
-										<input class="mx-auto form-control search-form" placeholder="AA-123-AA" type="text" name="immatriculation" required><br>
+										<input class="mx-auto form-control search-form text-center " placeholder="AA-123-AA" type="text" name="immatriculation" required><br>
 
 									</div>
 								</div>
@@ -41,7 +41,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Departement (ex: 01, 02, 2A, 2B, 974, 976)
 										</div>
-										<input type="text" class="search-form mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
+										<input type="text" class="search-form text-center mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
 									</div>
 								</div>
 								<div class="col-11 col-md-6 mx-auto search-box">
@@ -318,7 +318,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Departement (ex: 01, 02, 2A, 2B, 974, 976)
 										</div>
-										<input type="text" class="search-form mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
+										<input type="text" class="search-form text-center mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
 									</div>
 								</div>
 								<div class="col-11 col-md-6 mx-auto search-box">
@@ -593,7 +593,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Departement (ex: 01, 02, 2A, 2B, 974, 976)
 										</div>
-										<input type="text" class="search-form mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
+										<input type="text" class="search-form text-center mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
 									</div>
 								</div>
 								<div class="col-11 col-md-6 mx-auto search-box">
@@ -867,7 +867,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Departement (ex: 01, 02, 2A, 2B, 974, 976)
 										</div>
-										<input type="text" class="search-form mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
+										<input type="text" class="search-form text-center mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
 									</div>
 								</div>
 								<div class="col-11 col-md-6 mx-auto search-box">
@@ -1141,7 +1141,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Departement (ex: 01, 02, 2A, 2B, 974, 976)
 										</div>
-										<input type="text" class="search-form mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
+										<input type="text" class="search-form text-center mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
 									</div>
 								</div>
 								<div class="col-11 col-md-6 mx-auto search-box">
@@ -1416,7 +1416,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Departement (ex: 01, 02, 2A, 2B, 974, 976)
 										</div>
-										<input type="text" class="search-form mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
+										<input type="text" class="search-form text-center mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
 									</div>
 								</div>
 								<div class="col-11 col-md-6 mx-auto search-box">
@@ -1692,7 +1692,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Departement (ex: 01, 02, 2A, 2B, 974, 976)
 										</div>
-										<input type="text" class="search-form mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
+										<input type="text" class="search-form text-center mx-auto" name="departement" pattern="[0-9,A-B]{2,3}" maxlength="3" minlength="2" required><br>
 									</div>
 								</div>
 								<div class="col-11 col-md-6 mx-auto search-box">
@@ -1882,7 +1882,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Nombre de Cheval Fiscal (CV)
 										</div>
-										<input class="mx-auto search-form" type="number" name="cv" max=60 min=1 required><br>
+										<input class="mx-auto search-form text-center" type="number" name="cv" max=60 min=1 required><br>
 									</div>
 								</div>
 
@@ -1895,7 +1895,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Date de mise en circulation
 										</div>
-										<input class="mx-auto search-form" type="date" name="circulation" required><br>
+										<input class="mx-auto search-form text-center" type="date" name="circulation" required><br>
 									</div>
 								</div>
 
@@ -1905,7 +1905,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											CO2
 										</div>
-										<input class="mx-auto search-form" type="number" name="co2" max=1000 min=0 required><br>
+										<input class="mx-auto search-form text-center" type="number" name="co2" max=1000 min=0 required><br>
 									</div>
 								</div>
 
@@ -1915,7 +1915,7 @@ include __DIR__.'/../menu-commander.php';
 										<div class="col-12 search-box--titre">
 											Poids vehicule
 										</div>
-										<select class="mx-auto search-form" name="ptac">
+										<select class="mx-auto search-form text-center" name="ptac">
 											<option value="1">Inférieur ou égal à 3,5 tonnes</option>
 											<option value="2">Entre 3,5 et 6 tonnes</option>
 											<option value="3">Entre 6 et à 11 tonnes</option>
@@ -1938,13 +1938,11 @@ include __DIR__.'/../menu-commander.php';
 				<div class="modal-footer">
 					<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
 				</div>
-
 			</div>
 		</div>
-
 	</div>
 </div>
 
-	<?php
+<?php
 include __DIR__.'/../footer.php';
 ?>

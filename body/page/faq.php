@@ -1,9 +1,7 @@
-<?php
-include __DIR__.'/../head.php';
-?>
   <?php
 include __DIR__.'/../menu.php';
 ?>
+
 <div class="col-12 faq-firstview">
 <div class="row col-11 mx-auto">
   <div class="row mx-auto faq-description">
@@ -506,9 +504,6 @@ include __DIR__.'/../faq-menu.php';
 
       </div>
 </div>
-      <?php
-              include __DIR__.'/../menu.php';
-              ?>
         <?php
             include __DIR__.'/../footer.php';
             ?>

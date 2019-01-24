@@ -1,6 +1,3 @@
-<?php
-include __DIR__.'/../head.php';
-?>
   <?php
 include __DIR__.'/../menu.php';
 ?>
@@ -45,7 +42,7 @@ include __DIR__.'/../menu.php';
           Editeur&nbsp;:
         </div>
 
-        <div class="col-10 mx-auto col-sm-8 ">
+        <div class="col-10 mx-auto col-sm-8  mt-5">
           <p dir="ltr">CGOFFICIEL, SARL au capital de 500,00 €, inscrite au RCS de Toulouse sous le numéro 838 972 917, ayant son siège social&nbsp;20 Impasse Camille Langlade 31100 Toulouse.</p>
           <p dir="ltr">N°&nbsp;de TVA intracommunautaire&nbsp;: A CHANGER</p>
           <p dir="ltr">Directeur de la publication&nbsp;: Alain ABADIE</p>
@@ -61,9 +58,6 @@ include __DIR__.'/../menu.php';
           <p>&nbsp;</p>
         </div>
       </div>
-      <?php
-    include __DIR__.'/../menu.php';
-    ?>
       <?php
   include __DIR__.'/../footer.php';
   ?>
